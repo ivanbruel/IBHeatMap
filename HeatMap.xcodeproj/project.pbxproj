@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F3FB4819659845005C4B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3FB4719659845005C4B73 /* Foundation.framework */; };
+		30F3FB4A19659845005C4B73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3FB4919659845005C4B73 /* CoreGraphics.framework */; };
+		30F3FB4C19659845005C4B73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3FB4B19659845005C4B73 /* UIKit.framework */; };
+		30F3FB5219659845005C4B73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F3FB5019659845005C4B73 /* InfoPlist.strings */; };
+		30F3FB5419659845005C4B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FB5319659845005C4B73 /* main.m */; };
+		30F3FB5819659846005C4B73 /* IBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FB5719659846005C4B73 /* IBAppDelegate.m */; };
+		30F3FB5B19659846005C4B73 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F3FB5919659846005C4B73 /* Main_iPhone.storyboard */; };
+		30F3FB5E19659846005C4B73 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F3FB5C19659846005C4B73 /* Main_iPad.storyboard */; };
+		30F3FB6119659846005C4B73 /* IBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FB6019659846005C4B73 /* IBViewController.m */; };
+		30F3FB6319659846005C4B73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F3FB6219659846005C4B73 /* Images.xcassets */; };
+		30F3FB6A19659846005C4B73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3FB6919659846005C4B73 /* XCTest.framework */; };
+		30F3FB6B19659846005C4B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3FB4719659845005C4B73 /* Foundation.framework */; };
+		30F3FB6C19659846005C4B73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3FB4B19659845005C4B73 /* UIKit.framework */; };
+		30F3FB7419659846005C4B73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F3FB7219659846005C4B73 /* InfoPlist.strings */; };
+		30F3FB7619659846005C4B73 /* HeatMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FB7519659846005C4B73 /* HeatMapTests.m */; };
+		30F3FB8419659865005C4B73 /* IBHeatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FB8119659865005C4B73 /* IBHeatMap.m */; };
+		30F3FB8519659865005C4B73 /* IBMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FB8319659865005C4B73 /* IBMatrix.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F3FB6D19659846005C4B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F3FB3C19659845005C4B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F3FB4319659845005C4B73;
+			remoteInfo = HeatMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F3FB4419659845005C4B73 /* HeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F3FB4719659845005C4B73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30F3FB4919659845005C4B73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30F3FB4B19659845005C4B73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30F3FB4F19659845005C4B73 /* HeatMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeatMap-Info.plist"; sourceTree = "<group>"; };
+		30F3FB5119659845005C4B73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F3FB5319659845005C4B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30F3FB5519659845005C4B73 /* HeatMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeatMap-Prefix.pch"; sourceTree = "<group>"; };
+		30F3FB5619659845005C4B73 /* IBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBAppDelegate.h; sourceTree = "<group>"; };
+		30F3FB5719659846005C4B73 /* IBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBAppDelegate.m; sourceTree = "<group>"; };
+		30F3FB5A19659846005C4B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		30F3FB5D19659846005C4B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		30F3FB5F19659846005C4B73 /* IBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBViewController.h; sourceTree = "<group>"; };
+		30F3FB6019659846005C4B73 /* IBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBViewController.m; sourceTree = "<group>"; };
+		30F3FB6219659846005C4B73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30F3FB6819659846005C4B73 /* HeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F3FB6919659846005C4B73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30F3FB7119659846005C4B73 /* HeatMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeatMapTests-Info.plist"; sourceTree = "<group>"; };
+		30F3FB7319659846005C4B73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30F3FB7519659846005C4B73 /* HeatMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatMapTests.m; sourceTree = "<group>"; };
+		30F3FB8019659865005C4B73 /* IBHeatMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBHeatMap.h; sourceTree = "<group>"; };
+		30F3FB8119659865005C4B73 /* IBHeatMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBHeatMap.m; sourceTree = "<group>"; };
+		30F3FB8219659865005C4B73 /* IBMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBMatrix.h; sourceTree = "<group>"; };
+		30F3FB8319659865005C4B73 /* IBMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBMatrix.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F3FB4119659845005C4B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F3FB4A19659845005C4B73 /* CoreGraphics.framework in Frameworks */,
+				30F3FB4C19659845005C4B73 /* UIKit.framework in Frameworks */,
+				30F3FB4819659845005C4B73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F3FB6519659846005C4B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F3FB6A19659846005C4B73 /* XCTest.framework in Frameworks */,
+				30F3FB6C19659846005C4B73 /* UIKit.framework in Frameworks */,
+				30F3FB6B19659846005C4B73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F3FB3B19659845005C4B73 = {
+			isa = PBXGroup;
+			children = (
+				30F3FB4D19659845005C4B73 /* HeatMap */,
+				30F3FB6F19659846005C4B73 /* HeatMapTests */,
+				30F3FB4619659845005C4B73 /* Frameworks */,
+				30F3FB4519659845005C4B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30F3FB4519659845005C4B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F3FB4419659845005C4B73 /* HeatMap.app */,
+				30F3FB6819659846005C4B73 /* HeatMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F3FB4619659845005C4B73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F3FB4719659845005C4B73 /* Foundation.framework */,
+				30F3FB4919659845005C4B73 /* CoreGraphics.framework */,
+				30F3FB4B19659845005C4B73 /* UIKit.framework */,
+				30F3FB6919659846005C4B73 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F3FB4D19659845005C4B73 /* HeatMap */ = {
+			isa = PBXGroup;
+			children = (
+				30F3FB5619659845005C4B73 /* IBAppDelegate.h */,
+				30F3FB5719659846005C4B73 /* IBAppDelegate.m */,
+				30F3FB5919659846005C4B73 /* Main_iPhone.storyboard */,
+				30F3FB5C19659846005C4B73 /* Main_iPad.storyboard */,
+				30F3FB5F19659846005C4B73 /* IBViewController.h */,
+				30F3FB6019659846005C4B73 /* IBViewController.m */,
+				30F3FB6219659846005C4B73 /* Images.xcassets */,
+				30F3FB7F19659865005C4B73 /* IBHeatMap */,
+				30F3FB4E19659845005C4B73 /* Supporting Files */,
+			);
+			path = HeatMap;
+			sourceTree = "<group>";
+		};
+		30F3FB4E19659845005C4B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F3FB4F19659845005C4B73 /* HeatMap-Info.plist */,
+				30F3FB5019659845005C4B73 /* InfoPlist.strings */,
+				30F3FB5319659845005C4B73 /* main.m */,
+				30F3FB5519659845005C4B73 /* HeatMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30F3FB6F19659846005C4B73 /* HeatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				30F3FB7519659846005C4B73 /* HeatMapTests.m */,
+				30F3FB7019659846005C4B73 /* Supporting Files */,
+			);
+			path = HeatMapTests;
+			sourceTree = "<group>";
+		};
+		30F3FB7019659846005C4B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F3FB7119659846005C4B73 /* HeatMapTests-Info.plist */,
+				30F3FB7219659846005C4B73 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30F3FB7F19659865005C4B73 /* IBHeatMap */ = {
+			isa = PBXGroup;
+			children = (
+				30F3FB8019659865005C4B73 /* IBHeatMap.h */,
+				30F3FB8119659865005C4B73 /* IBHeatMap.m */,
+				30F3FB8219659865005C4B73 /* IBMatrix.h */,
+				30F3FB8319659865005C4B73 /* IBMatrix.m */,
+			);
+			path = IBHeatMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F3FB4319659845005C4B73 /* HeatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F3FB7919659846005C4B73 /* Build configuration list for PBXNativeTarget "HeatMap" */;
+			buildPhases = (
+				30F3FB4019659845005C4B73 /* Sources */,
+				30F3FB4119659845005C4B73 /* Frameworks */,
+				30F3FB4219659845005C4B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatMap;
+			productName = HeatMap;
+			productReference = 30F3FB4419659845005C4B73 /* HeatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30F3FB6719659846005C4B73 /* HeatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F3FB7C19659846005C4B73 /* Build configuration list for PBXNativeTarget "HeatMapTests" */;
+			buildPhases = (
+				30F3FB6419659846005C4B73 /* Sources */,
+				30F3FB6519659846005C4B73 /* Frameworks */,
+				30F3FB6619659846005C4B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F3FB6E19659846005C4B73 /* PBXTargetDependency */,
+			);
+			name = HeatMapTests;
+			productName = HeatMapTests;
+			productReference = 30F3FB6819659846005C4B73 /* HeatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F3FB3C19659845005C4B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ivan Bruel";
+				TargetAttributes = {
+					30F3FB6719659846005C4B73 = {
+						TestTargetID = 30F3FB4319659845005C4B73;
+					};
+				};
+			};
+			buildConfigurationList = 30F3FB3F19659845005C4B73 /* Build configuration list for PBXProject "HeatMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F3FB3B19659845005C4B73;
+			productRefGroup = 30F3FB4519659845005C4B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F3FB4319659845005C4B73 /* HeatMap */,
+				30F3FB6719659846005C4B73 /* HeatMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F3FB4219659845005C4B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F3FB5E19659846005C4B73 /* Main_iPad.storyboard in Resources */,
+				30F3FB6319659846005C4B73 /* Images.xcassets in Resources */,
+				30F3FB5B19659846005C4B73 /* Main_iPhone.storyboard in Resources */,
+				30F3FB5219659845005C4B73 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F3FB6619659846005C4B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F3FB7419659846005C4B73 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F3FB4019659845005C4B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F3FB8519659865005C4B73 /* IBMatrix.m in Sources */,
+				30F3FB5419659845005C4B73 /* main.m in Sources */,
+				30F3FB8419659865005C4B73 /* IBHeatMap.m in Sources */,
+				30F3FB5819659846005C4B73 /* IBAppDelegate.m in Sources */,
+				30F3FB6119659846005C4B73 /* IBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F3FB6419659846005C4B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F3FB7619659846005C4B73 /* HeatMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F3FB6E19659846005C4B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F3FB4319659845005C4B73 /* HeatMap */;
+			targetProxy = 30F3FB6D19659846005C4B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30F3FB5019659845005C4B73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F3FB5119659845005C4B73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30F3FB5919659846005C4B73 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F3FB5A19659846005C4B73 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		30F3FB5C19659846005C4B73 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F3FB5D19659846005C4B73 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		30F3FB7219659846005C4B73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F3FB7319659846005C4B73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F3FB7719659846005C4B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30F3FB7819659846005C4B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F3FB7A19659846005C4B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMap/HeatMap-Prefix.pch";
+				INFOPLIST_FILE = "HeatMap/HeatMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30F3FB7B19659846005C4B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMap/HeatMap-Prefix.pch";
+				INFOPLIST_FILE = "HeatMap/HeatMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30F3FB7D19659846005C4B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeatMap.app/HeatMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMap/HeatMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeatMapTests/HeatMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30F3FB7E19659846005C4B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeatMap.app/HeatMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeatMap/HeatMap-Prefix.pch";
+				INFOPLIST_FILE = "HeatMapTests/HeatMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F3FB3F19659845005C4B73 /* Build configuration list for PBXProject "HeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F3FB7719659846005C4B73 /* Debug */,
+				30F3FB7819659846005C4B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F3FB7919659846005C4B73 /* Build configuration list for PBXNativeTarget "HeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F3FB7A19659846005C4B73 /* Debug */,
+				30F3FB7B19659846005C4B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30F3FB7C19659846005C4B73 /* Build configuration list for PBXNativeTarget "HeatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F3FB7D19659846005C4B73 /* Debug */,
+				30F3FB7E19659846005C4B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F3FB3C19659845005C4B73 /* Project object */;
+}
