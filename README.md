@@ -1,6 +1,6 @@
 IBHeatMap
 --------------
-
+![sample](/example.png)
 Purpose
 --------------
 
